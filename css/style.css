@@ -1,0 +1,515 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+
+.navbar-nav .active a{
+    color:yellowgreen !important;
+}
+
+.navbar-nav .active a:hover{
+    color:yellowgreen ;
+}
+
+.nav-item a:hover {
+    color: lightgreen !important;
+}
+.form-control{
+    position: absolute;
+}
+.search-btn{
+    float: right;
+}
+.fa{
+    float: right;
+    border: 0;
+}
+.folder-part{
+    background-color: gray;
+    font-weight: bold;
+    color: honeydew;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn{
+    background-color: darkgray;
+    outline-color: darkgray;
+}
+@media only screen and (max-width: 640px){
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+@media only screen and (max-width: 640px) {
+/* For mobile phones: */
+img{
+    flex-direction: column;
+}
+.big-kid,.sent2{
+    text-align: center;
+}
+.gcr{
+    padding-right: 140px;
+}
+}
+@media (max-width: 600px) { 
+    .row,.col{
+        width: auto;
+        height: auto;
+    }
+}
+.dad-kid{
+width: 100%;
+height: 100%;
+background-image: url("/images/pb1.png");
+background-size: 100% 100%;
+}
+.contact-us{
+    background-color: yellowgreen;
+    color: white;
+}
+.sent2{
+    color:gray;
+}
+.contact-us3,.contact-us4{
+    background-color: greenyellow;
+}
+.how-vittal{
+    background : url(/images/hbg5.png);
+    color: honeydew;
+    background-size: auto auto;
+}
+@media (max-width:400px){
+    .how-vittal{
+        width: auto;
+    }
+}
+.how-vittal{
+    position: relative;
+    padding-bottom: 15px;
+}
+.boxn1{
+    border:greenyellow;
+    border-style: solid;
+    border-width: 2px;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px; */
+    font-size: 20;
+}
+.btnva1{
+    background-color: greenyellow;
+}
+.jumbotron{
+    background-image: url(/images/testimonial-bg.jpg);
+}
+.display-4{
+    padding-bottom: 20px;
+}
+.p_button{
+    padding-top: 40px;
+}
+.n_button{
+    padding-top: 40px;
+}
+.skr{
+    background-color: snow;
+    border-color: yellowgreen;
+    border-width: 2px;
+}
+.nariyal,.aalkaru,.container,.how-vittal{
+    overflow: hidden;
+}
+.cpp1{
+    float: right;
+}
+.cpp2{
+    float: left;
+}
+@media (max-width:400px){
+    .cpp1{
+        float:none;
+        /* padding-left: 20px; */
+        /* width: 75%; */
+    }
+    .cpp2{
+        float: none;
+        /* padding-right: 20px; */
+        /* width: 75%; */
+    }
+    .rcx{
+        text-align: center;
+        offset:unset;
+        padding-left: 30px;
+    }
+    .rcd{
+        padding-left: 30px;
+    }
+}
+@media (min-width:450px){
+    .cpp1{
+        float:none;
+        /* padding-left: 20px; */
+        /* width: 75%; */
+    }
+    .cpp2{
+        float: none;
+        /* padding-right: 20px; */
+        /* width: 75%; */
+    }
+    .rcx{
+        text-align: center;
+        offset:unset;
+        padding-left: 130px;
+    }
+    .rcd{
+        padding-left: 130px;
+    }
+}
+.nariyal{
+    background-image: url(/images/hbg6.png);
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+@media (max-width:600px){
+    .big-kid{
+        text-align: center;
+    }
+}
+@media (min-width:600px){
+    .dad-kid{
+        width: 100%;
+        height: 400px;
+        background-image: url("/images/pb1.png");
+        background-size: 100% 100%;
+        }
+    .gcr{
+        padding-top: 100px;
+    }
+    .note{
+        padding-top: 100px;
+    }
+    .fluid-container{
+        column-count: 1;
+    }
+}
+.line-va{
+    position: relative;
+}
+.fluid-image{
+    position: relative;
+}
+.tag1{
+    position: absolute;
+    /* padding-right: 20px; */
+    z-index: 100;
+    /* left: 2%; */
+    /* align-items:flex-start;
+    justify-items:flex-start; */
+}
+.tag2{
+    position: absolute;
+    /* padding-right: 20px; */
+    /* z-index: 100; */
+    /* left: 25%; */
+}
+.tag3{
+    position: absolute;
+    /* padding-right: 20px; */
+    z-index: 100;
+    /* left: 25%; */
+}
+.tag4{
+    position: absolute;
+    /* padding-right: 20px; */
+    z-index: 100;
+    /* left: 25%; */
+}
+.tag5{
+    position: absolute;
+    /* padding-right: 20px; */
+    z-index: 100;
+    /* left: 25%; */
+}
+.tag6{
+    position: absolute;
+    /* padding-right: 20px; */
+    z-index: 100;
+    /* left: 25%; */
+}
+.big-kid{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+@media (min-width:768px){
+    .rcx{
+        padding-left: 80px;
+    }
+    .rcd{
+        padding-left: 30px;
+    }
+}
+@media (min-width:1024px){
+    .rcd{
+        padding-left: 70px;
+    }
+}
+ul {
+    list-style-type: none;
+}
+@media (max-width:450px){
+    .cpp1{
+        float:none;
+        /* padding-left: 20px; */
+        /* width: 75%; */
+    }
+    .cpp2{
+        float: none;
+        /* padding-right: 20px; */
+        /* width: 75%; */
+    }
+    .rcx{
+        text-align: center;
+        offset:unset;
+        padding-left: 54px;
+    }
+    .rcd{
+        padding-left: 54px;
+    }
+}
+@media (max-width:320px){
+    .cpp1{
+        float:none;
+        /* padding-left: 20px; */
+        /* width: 75%; */
+    }
+    .cpp2{
+        float: none;
+        /* padding-right: 20px; */
+        /* width: 75%; */
+    }
+    .rcx{
+        text-align: center;
+        offset:unset;
+        padding-left: 22px;
+    }
+    .rcd{
+        padding-left: 22px;
+    }
+    .foot_logo{
+        width: 250px;
+        height: 250px;
+    }
+}
+/* .tag1{
+    float: left;
+    left: 11%;
+}
+.tag2{
+    float: left;
+    left: 6.6%;
+}
+.tag3{
+    float: left;
+    left: 2.2%;
+}
+.tag4{
+    float: left;
+    right: 2%;
+}
+.tag5{
+    float: left;
+    right: 6.3%;
+}
+.tag6{
+    float: left;
+    right: 10.8%;
+} */
+/* @media (max-width:600px){
+    .fluid-image{
+        height: 50px;
+        width: 50px;
+    }
+} */
+/* .how-vital{
+    width: 100%;
+} */
+.horProgressImg {
+    width: 100%;
+}
+.horProgress {
+    position: relative;
+    margin-top: 5%;
+}
+.horProgressHeaderContent {
+    position: absolute;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.horProgressHeader{
+    font-size: 7vh;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+.horProgressSubHeader{
+    font-size: 5vh;
+}
+@media only screen and (max-width: 450px){
+
+.horProgressHeader{
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.horProgressSubHeader{
+    font-size: 2vh;
+    margin-bottom: 2vh;
+}
+
+.horProgressImg {
+    width: 100%;
+    height: 300px;
+}
+.dottedLine{
+    width: 20px;
+}
+.dottedLine{
+    width: 20px;
+}
+}
+@media only screen and (min-width: 451px) and (max-width: 560px){
+.horProgressHeader{
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.horProgressSubHeader{
+    font-size: 2vh;
+    margin-bottom: 2vh;
+}
+
+.horProgressImg {
+    width: 100%;
+    height: 320px;
+}
+.dottedLine{
+    width: 20px;
+}
+.noOnTop {
+    height: 40px;
+    width: 40px;
+}
+.dottedLine{
+    width: 20px;
+}
+}
+@media only screen and (max-width: 767px) and (min-width: 561px){
+.horProgressHeader{
+font-size: 4vh;
+font-weight: bold;
+}
+
+.horProgressSubHeader{
+font-size: 3vh;
+margin-bottom: 2vh;
+}
+.horProgressImg {
+width: 100%;
+height: 320px;
+}
+.dottedLine{
+width: 7vh;
+}
+.noOnTop {
+    height: 7vh;
+    width: 7vh;
+}
+.dottedLine{
+    width: 7vh;
+}
+}
+@media only screen and (max-width: 1000px) and (min-width: 768px){
+.horProgressHeader{
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.horProgressSubHeader{
+    font-size: 4vh;
+    margin-bottom: 2vh;
+}  
+.horProgressHeader{
+    font-size: 5vh;
+    font-weight: bold;
+    }
+.horProgressImg {
+    width: 100%;
+    height: 350px;
+    }
+    .dottedLine{
+        width: 9vh;
+        }
+    .noOnTop {
+        height: 10vh;
+        width: 10vh;
+        }
+    .dottedLine{
+        width: 9vh;
+        }
+    }
+@media only screen and (max-width: 1200px) and (min-width: 1001px){
+.horProgressHeader{
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.horProgressSubHeader{
+    font-size: 4vh;
+    margin-bottom: 2vh;
+}
+.horProgressImg {
+width: 100%;
+height: 400px;
+}
+.dottedLine{
+    width: 10vh;
+    }   
+.noOnTop {
+    height: 11vh;
+    width: 11vh;
+    }
+.dottedLine{
+    width: 10vh;
+    }
+}
+.progressContent {
+position: absolute;
+top: 50%;
+display: flex;
+align-items: center;
+justify-content: center
+}
+.imageOnTop {
+position: relative
+}
+.progressText {
+position: absolute;
+top: -20px;
+left: 25%;
+}
+.noOnTop {
+height: 40px;
+width: 40px;
+}
+.horProgress{
+    overflow: hidden;
+}
