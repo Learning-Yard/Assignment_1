@@ -149,7 +149,7 @@ background-size: 100% 100%;
         padding-left: 30px;
     }
     .rcd{
-        padding-left: 30px;
+        margin-left: 30px;
     }
 }
 @media (min-width:450px){
@@ -169,7 +169,7 @@ background-size: 100% 100%;
         padding-left: 130px;
     }
     .rcd{
-        padding-left: 130px;
+        margin-left: 130px;
     }
 }
 .nariyal{
@@ -252,16 +252,17 @@ background-size: 100% 100%;
         padding-left: 80px;
     }
     .rcd{
-        padding-left: 30px;
+        margin-left: 30px;
     }
 }
 @media (min-width:1024px){
     .rcd{
-        padding-left: 70px;
+        margin-left: 70px;
     }
 }
 ul {
     list-style-type: none;
+    padding-left:0;
 }
 @media (max-width:450px){
     .cpp1{
@@ -280,7 +281,7 @@ ul {
         padding-left: 54px;
     }
     .rcd{
-        padding-left: 54px;
+        margin-left: 54px;
     }
 }
 @media (max-width:320px){
@@ -300,7 +301,7 @@ ul {
         padding-left: 22px;
     }
     .rcd{
-        padding-left: 22px;
+        margin-left: 22px;
     }
     .foot_logo{
         width: 250px;
@@ -385,6 +386,12 @@ ul {
 .dottedLine{
     width: 20px;
 }
+.majn{
+    margin-left: 20%;
+}
+.contact-us4{
+    margin-top: 10px;
+}
 }
 @media only screen and (min-width: 451px) and (max-width: 560px){
 .horProgressHeader{
@@ -411,6 +418,21 @@ ul {
 .dottedLine{
     width: 20px;
 }
+.majn{
+    margin-left: 20%;
+}
+.contact-us4{
+    margin-top: 10px;
+}
+.ud{
+    margin-left: 10%;
+}
+.rcx{
+    padding-left: 80px;
+}
+.foot_logo{
+    margin-left: 10%;
+}
 }
 @media only screen and (max-width: 767px) and (min-width: 561px){
 .horProgressHeader{
@@ -435,6 +457,21 @@ width: 7vh;
 }
 .dottedLine{
     width: 7vh;
+}
+.majn{
+    margin-left: 20%;
+}
+.contact-us4{
+    margin-top: 10px;
+}
+.ud{
+    margin-left: 10%;
+}
+.rcx{
+    padding-left: 80px;
+}
+.foot_logo{
+    margin-left: 10%;
 }
 }
 @media only screen and (max-width: 1000px) and (min-width: 768px){
@@ -512,4 +549,115 @@ width: 40px;
 }
 .horProgress{
     overflow: hidden;
+}
+.caranzul{
+    position: relative;
+    height: 400px;
+}
+.hd {
+    top: 2%;
+    bottom: auto;
+    font-size: xx-large;
+}
+.ypr{
+    top: 35%;
+}
+.speach{
+    top: 60%;
+}
+@media (max-width:1024px) and (min-width:768px){
+    .hd {
+        top: 1%;
+        bottom: auto;
+        font-size: xx-large;
+    }
+    .ypr{
+        top: 33%;
+    }
+    .bacha{
+        width: 120px;
+        height: 120px;
+    }
+    .speach{
+        top: 60%;
+    }   
+}
+@media (max-width:768px) and (min-width:540px){
+    .hd {
+        top: 0;
+        bottom: auto;
+        font-size:x-large;
+    }
+    .ypr{
+        top: 30%;
+    }
+    .bacha{
+        width: 75px;
+        height: 75px;
+    }
+    .speach{
+        top: 50%;
+        font-size:58%;
+    }
+    .rcd{
+        margin-left: 250px;
+    }   
+}
+@media (max-width:539px) and (min-width:450px){
+    .caranzul{
+        height: 400px;
+    }
+    .hd {
+        top: 0;
+        bottom: auto;
+        font-size:large;
+    }
+    .ypr{
+        top: 30%;
+    }
+    .bacha{
+        width: 50px;
+        height: 50px;
+    }
+    .speach{
+        top: 48%;
+        font-size:48%;
+    }   
+}
+@media (max-width:449px) and (min-width:380px){
+    .carousel-caption {
+        top: 0;
+        bottom: auto;
+        font-weight: 200;
+        font-size: large;
+    }
+    .ypr{
+        top: 28%;
+    }
+    .bacha{
+        width: 50px;
+        height: 50px;
+    }
+    .speach{
+        top: 43%;
+        font-size:42%;
+    }
+
+}
+.tkd,.skr .hover{
+    background-color: yellowgreen;
+}
+.big-kid{
+    width: fit-content;
+}
+.nc_container{
+    width: fit-content;
+}
+.skr:hover {
+    background-color: yellowgreen;
+    color: white;
+    text-decoration: none;
+}
+.card-text:hover{
+    color: yellowgreen;
 }
